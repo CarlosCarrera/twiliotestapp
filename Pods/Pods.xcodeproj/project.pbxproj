@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CECEE22D8E1E49F65B13C57E17ED50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0A43C46F296C13246F66DED267B66149 /* NSData+SEGGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB10D752900D59E389A2B7FFA415624 /* NSData+SEGGZIP.m */; };
+		0D66936A8F524646E62755CAF117F98F /* SEGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E19E6844214E3F592D1ED8E469A8CAA /* SEGMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12A5DB6B55FD8432DC4FCD2A5CD1ACD2 /* SEGSegmentIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD40F5030AD382CB2E17D050D5648 /* SEGSegmentIntegration.m */; };
+		17A2B46B5710553AC3B357E082C8D1A7 /* SEGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163C6FC78880FA2BB581AB356A8CBF7 /* SEGContext.m */; };
+		188BC6A856F53497BBDBD32B7CB98EC1 /* SEGIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC3D5E966973939AB5DE88180501FFF /* SEGIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		233849E7247678C8D08019E67C118B57 /* SEGState.h in Headers */ = {isa = PBXBuildFile; fileRef = 686A16F90C9BC1711D4B00CD02D93B70 /* SEGState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A1C5D8D777D5AFF9BCEC8EC3D411CA7 /* SEGMiddleware.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D03D1E5A3330A9B4B7D2176250C077 /* SEGMiddleware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1EF9F938A82FDD6FE44792DBE27FE0 /* SEGTrackPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 414524DEE2805156D7512F49A36BD691 /* SEGTrackPayload.m */; };
+		31B3F82B0183E280D3D11664CD5ED456 /* SEGAliasPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5E0672DCA4DA595A08D84E70490230 /* SEGAliasPayload.m */; };
+		320FE5C08207B115B6E98D4CE09381DD /* SEGSegmentIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B90346827ED86C9C787BBBECF6CE169 /* SEGSegmentIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36204C6E3833C361DC25A78BE407CFFA /* SEGContext.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A3F4B952E5CDDADC2F209F8CC59A60 /* SEGContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39F7A5121334D7A9996A148E4ECDE8AC /* SEGMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A83E52B72D81AD6CDF4865ACC9016BF /* SEGMiddleware.m */; };
+		3AB503D076E809F546D53CA1B0B2B9EB /* SEGAES256Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62E2D0447E83C2E70D8D3D86147633 /* SEGAES256Crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CCFE6AA09821263964112C456248DC5 /* SEGState.m in Sources */ = {isa = PBXBuildFile; fileRef = D37C0414AB6A99961FDF5F64B7B05EF9 /* SEGState.m */; };
+		3EFCD773E3C83EBD7D056CAE92E0B173 /* SEGIdentifyPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 4335D5CCB990DAE880B76A634D842433 /* SEGIdentifyPayload.m */; };
+		436C18C3ABB3D6A52A91AC93DD5DDBF0 /* SEGSegmentIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D8D02CA1FA647BD8245902D3AC6560 /* SEGSegmentIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		486BD878A6185651850D19FE0A855E54 /* SEGHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AEFCDDBEB3ACE99B1D8791CC23B72FCE /* SEGHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52AC7272006789E5B32F5AFAE4ABD6A0 /* SEGAnalyticsConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D733277A3095007D758AF03AFC1CEAC6 /* SEGAnalyticsConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		557DEBE4CCD20864381A8DB339AF20A8 /* SEGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E59F05B45E9242761E87B65B1E6FFF /* SEGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559868601F3A25B77CD8E5FCFFA830B9 /* SEGTrackPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC7B4188196EC22EEB0A8A907DB0D8D /* SEGTrackPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		696482E99269E8CDB0500799BBCE6449 /* Analytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBC8AD70E95E6242D53B6B58221C472 /* Analytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C15EB240AF9CD8016D266AA7C9DAE6C /* SEGFileStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 483C34CB1EB30D979B631026A0C42EA3 /* SEGFileStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71B2EE32B16BB71EB3B48EFDB2D2C3F7 /* SEGAliasPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 48CD63B7744076EE0125A4875D9B4223 /* SEGAliasPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7459C4D5936B411B548372351C1C4029 /* SEGStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C3131CBC4E2968EE138543A16D2955 /* SEGStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C5CC019B581871B3A8F985B81EF24D5 /* SEGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D3686B26098C2952B208E110DB25A0 /* SEGReachability.m */; };
+		7D2B6FEB7994AD7BE07AF9ACF5A9505E /* SEGIntegrationsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FB10EE280606AF07492B36F89F3C4790 /* SEGIntegrationsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D5C076A4746677A37F564C78018E0DA /* SEGPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BD1D4ADA8FCD2C04D212155A8A8A6 /* SEGPayload.m */; };
+		7E1AA47CBB19BEB430E8251BBF11BB3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		860EC0A5D4E5DE26C3FC5BA1B64BAFA8 /* SEGUserDefaultsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C59FB0FC9AE74DF5E0A751AACE453 /* SEGUserDefaultsStorage.m */; };
+		89D257FA9D2CD19B84D6D32EC19B7628 /* SEGHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F076809D88127D0249E3EAE7986F043 /* SEGHTTPClient.m */; };
+		8C041E2C23D6ACADF2EE2C5BEC52CC55 /* SEGAnalyticsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DB8F6EE6948EF389D08F91DC50249 /* SEGAnalyticsUtils.m */; };
+		8C0EEA8F56098154A880D893217F9840 /* SEGAES256Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CB588F6BB296B46A46A59C49D9827B /* SEGAES256Crypto.m */; };
+		8DDB5D09691B7C04D7B2FFCE2687802F /* Pods-twilioTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B70A74B115131D4FA1D01322754576 /* Pods-twilioTestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91FC06B3714F103E9192A6F68B15C6D3 /* NSData+SEGGZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BF3F5D452B97B00B7DD53195CECF0C8 /* NSData+SEGGZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933E8D19F4112CDB3FF768CC633F818B /* SEGCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEEA2FF3E387FAD6FC6BD96AB8247CD /* SEGCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		977382C0F7359E7BE08753FF6D96EAB9 /* SEGSerializableValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 588AF0D1326439412E8B87CC275594B2 /* SEGSerializableValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CE5AE2FB94BAD317BA572E0E77D6A05 /* SEGAnalyticsConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 96248B1D347222B3D65820D00A879FBD /* SEGAnalyticsConfiguration.m */; };
+		A0450A08E026AD13C29F3B42E1B0C7E6 /* Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D79EBE0499FD0996176BF9AE79A5F74 /* Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6FC39F9419F15E470434B9A4493A261 /* SEGScreenPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBC521852340C6330099674CF56491A /* SEGScreenPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A98268D73144D9B64DB82E9C5CD362AD /* SEGUserDefaultsStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 178F75B161C684C13ED13B8C899EA181 /* SEGUserDefaultsStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC2BB0E786ED3585E7457985E8C9C92F /* SEGSegmentIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CC43DA96026906EE73A33DCE8EE85346 /* SEGSegmentIntegrationFactory.m */; };
+		AD1EF9ED5EF7C111B42B8D0DACB3DADD /* UIViewController+SEGScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E06263E6BD8724D275014BCE06CBB /* UIViewController+SEGScreen.m */; };
+		AD948BE8E64B07B2A2F94D660C4C82DC /* SEGAnalyticsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1D17597F223A4648E9D13E82E6A52D /* SEGAnalyticsUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B30E2A2E2B816303880718FC3CF2A3FA /* SEGIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C82692B2EEDE68C0D5277D9F2DAF459 /* SEGIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B41B7CA65465FD40292222CBB4387589 /* SEGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DDE2E0E63F58A37C14F2C3C8AF2BD5 /* SEGUtils.m */; };
+		B45E14C48D7529A682DC0E250B8B2DAD /* NSViewController+SEGScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587FF6EF26041F69D1C57A99ACE75A1 /* NSViewController+SEGScreen.m */; };
+		BD40B43498BB7B136A0CB0D66714CD80 /* SEGGroupPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C6C80D1B9570FBA1263D4C2372066A /* SEGGroupPayload.m */; };
+		C43E523441207FCA51B655C1EBE61AA1 /* SEGFileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463DD3B6399661D3C36A6804A3B057C /* SEGFileStorage.m */; };
+		C7C07A0ACC33F28B0941BEEA01049CB9 /* SEGScreenPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF5F0122E9D922EB57E17D793B8DA2A /* SEGScreenPayload.m */; };
+		CC83DEB29EE23239AB0C219054E1F5DE /* SEGStoreKitTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F326285893C62C7F814AD5B5F616C5 /* SEGStoreKitTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D12FFE6A85B5F33032CF7A0E5E0B38EC /* Analytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F541835BF4FB448A4B2E59348CCB898 /* Analytics-dummy.m */; };
+		D46BEBE7D76C095DA757891E51CBE4DC /* SEGAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8ED6B1476A81884F0F7DD441769D6F /* SEGAnalytics.m */; };
+		D5E98A2C13AE0C1DCCEA740599EF84FD /* Pods-twilioTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A12DC3BFF5F7764F2A044AFD6EA284 /* Pods-twilioTestApp-dummy.m */; };
+		DA418C3CD9199C93A7213AED57B6CFEA /* SEGAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 74373C546322B46315DF59C4FB83A854 /* SEGAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF130B86CF3EC0670CDC46E6EBF9CF7B /* SEGPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F68369938FF17483E040BD8E45E5C0 /* SEGPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E210A24CB9C0CBA8F67D3B445619AAAF /* SEGWebhookIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 985C8E764D27E34C44BAD94605B7AF4C /* SEGWebhookIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8F4C396C82107C84CD2BC08A6F29D0B /* SEGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1534305F406184236FB5AEAC68C02D69 /* SEGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA29DF308095E0DA82A77CB9C00852AE /* SEGWebhookIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DBA8BEB6246172E28A4987E74A0825 /* SEGWebhookIntegration.m */; };
+		EC8A5632EB1726B2A002A4DCFB358577 /* NSViewController+SEGScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB38B05D4CC213730B7A77F3F0D805A /* NSViewController+SEGScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC8EB7F1686CA218646849333EC81E38 /* SEGScreenReporting.h in Headers */ = {isa = PBXBuildFile; fileRef = 2491C7638847C0E5487C2136F75C13A8 /* SEGScreenReporting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFA3349CA5229101281160A984AD2A30 /* SEGIdentifyPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 910F7569FC71FED0FCDBAFC708155489 /* SEGIdentifyPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F73144C3DF66F22DA7CA846601BD3AAE /* SEGStoreKitTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0CCC38A2B55D782242307DC7EC1D1B /* SEGStoreKitTracker.m */; };
+		FB1F2CF0EC25B86AE8955D60BB7BA9B6 /* SEGIntegrationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A22BEF7111AB62E711F68F81ED70E860 /* SEGIntegrationsManager.m */; };
+		FD47E3FBF25FAEB299E1182C5EC419F8 /* UIViewController+SEGScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A85A3DA6F0F92D7E6037553C5C288C /* UIViewController+SEGScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEA67B1EE1DFCC8C2D02902FD242CB4E /* SEGGroupPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE4D4A6A19628073B15CFD004F3D61E /* SEGGroupPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D31902D728CA6D61543D5A8214093971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F50A15C556FFEAD343B69C7EA54092F;
+			remoteInfo = Analytics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B90346827ED86C9C787BBBECF6CE169 /* SEGSegmentIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentIntegration.h; path = Segment/Classes/SEGSegmentIntegration.h; sourceTree = "<group>"; };
+		1534305F406184236FB5AEAC68C02D69 /* SEGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGUtils.h; path = Segment/Internal/SEGUtils.h; sourceTree = "<group>"; };
+		16471AA93C8025EEEE966B0793BD2F8A /* Analytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Analytics-prefix.pch"; sourceTree = "<group>"; };
+		178F75B161C684C13ED13B8C899EA181 /* SEGUserDefaultsStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGUserDefaultsStorage.h; path = Segment/Internal/SEGUserDefaultsStorage.h; sourceTree = "<group>"; };
+		1C0C59FB0FC9AE74DF5E0A751AACE453 /* SEGUserDefaultsStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGUserDefaultsStorage.m; path = Segment/Internal/SEGUserDefaultsStorage.m; sourceTree = "<group>"; };
+		2491C7638847C0E5487C2136F75C13A8 /* SEGScreenReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGScreenReporting.h; path = Segment/Classes/SEGScreenReporting.h; sourceTree = "<group>"; };
+		2587FF6EF26041F69D1C57A99ACE75A1 /* NSViewController+SEGScreen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSViewController+SEGScreen.m"; path = "Segment/Internal/NSViewController+SEGScreen.m"; sourceTree = "<group>"; };
+		25D8D02CA1FA647BD8245902D3AC6560 /* SEGSegmentIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentIntegrationFactory.h; path = Segment/Classes/SEGSegmentIntegrationFactory.h; sourceTree = "<group>"; };
+		2A7E06263E6BD8724D275014BCE06CBB /* UIViewController+SEGScreen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SEGScreen.m"; path = "Segment/Internal/UIViewController+SEGScreen.m"; sourceTree = "<group>"; };
+		2C8ED6B1476A81884F0F7DD441769D6F /* SEGAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalytics.m; path = Segment/Classes/SEGAnalytics.m; sourceTree = "<group>"; };
+		2CC7B4188196EC22EEB0A8A907DB0D8D /* SEGTrackPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGTrackPayload.h; path = Segment/Classes/SEGTrackPayload.h; sourceTree = "<group>"; };
+		2CE4B6165F426953A26419DF02AF0D93 /* Analytics */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Analytics; path = Segment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBC8AD70E95E6242D53B6B58221C472 /* Analytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Analytics-umbrella.h"; sourceTree = "<group>"; };
+		2F541835BF4FB448A4B2E59348CCB898 /* Analytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Analytics-dummy.m"; sourceTree = "<group>"; };
+		2F6BD40F5030AD382CB2E17D050D5648 /* SEGSegmentIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentIntegration.m; path = Segment/Classes/SEGSegmentIntegration.m; sourceTree = "<group>"; };
+		3C82692B2EEDE68C0D5277D9F2DAF459 /* SEGIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegrationFactory.h; path = Segment/Classes/SEGIntegrationFactory.h; sourceTree = "<group>"; };
+		40E59F05B45E9242761E87B65B1E6FFF /* SEGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGReachability.h; path = Segment/Classes/SEGReachability.h; sourceTree = "<group>"; };
+		414524DEE2805156D7512F49A36BD691 /* SEGTrackPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGTrackPayload.m; path = Segment/Classes/SEGTrackPayload.m; sourceTree = "<group>"; };
+		4163C6FC78880FA2BB581AB356A8CBF7 /* SEGContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGContext.m; path = Segment/Classes/SEGContext.m; sourceTree = "<group>"; };
+		4335D5CCB990DAE880B76A634D842433 /* SEGIdentifyPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGIdentifyPayload.m; path = Segment/Classes/SEGIdentifyPayload.m; sourceTree = "<group>"; };
+		483C34CB1EB30D979B631026A0C42EA3 /* SEGFileStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGFileStorage.h; path = Segment/Internal/SEGFileStorage.h; sourceTree = "<group>"; };
+		48CD63B7744076EE0125A4875D9B4223 /* SEGAliasPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAliasPayload.h; path = Segment/Classes/SEGAliasPayload.h; sourceTree = "<group>"; };
+		492BD1D4ADA8FCD2C04D212155A8A8A6 /* SEGPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGPayload.m; path = Segment/Classes/SEGPayload.m; sourceTree = "<group>"; };
+		4BF3F5D452B97B00B7DD53195CECF0C8 /* NSData+SEGGZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SEGGZIP.h"; path = "Segment/Internal/NSData+SEGGZIP.h"; sourceTree = "<group>"; };
+		4D79EBE0499FD0996176BF9AE79A5F74 /* Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Segment.h; path = Segment/Classes/Segment.h; sourceTree = "<group>"; };
+		4FC3D5E966973939AB5DE88180501FFF /* SEGIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegration.h; path = Segment/Classes/SEGIntegration.h; sourceTree = "<group>"; };
+		52DBA8BEB6246172E28A4987E74A0825 /* SEGWebhookIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGWebhookIntegration.m; path = Segment/Classes/SEGWebhookIntegration.m; sourceTree = "<group>"; };
+		5397EC223D1AA5A839C2FC3B55013ACF /* Pods-twilioTestApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-twilioTestApp-frameworks.sh"; sourceTree = "<group>"; };
+		5463DD3B6399661D3C36A6804A3B057C /* SEGFileStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGFileStorage.m; path = Segment/Internal/SEGFileStorage.m; sourceTree = "<group>"; };
+		588AF0D1326439412E8B87CC275594B2 /* SEGSerializableValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSerializableValue.h; path = Segment/Classes/SEGSerializableValue.h; sourceTree = "<group>"; };
+		5CB38B05D4CC213730B7A77F3F0D805A /* NSViewController+SEGScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSViewController+SEGScreen.h"; path = "Segment/Internal/NSViewController+SEGScreen.h"; sourceTree = "<group>"; };
+		5EE4D4A6A19628073B15CFD004F3D61E /* SEGGroupPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGGroupPayload.h; path = Segment/Classes/SEGGroupPayload.h; sourceTree = "<group>"; };
+		5F076809D88127D0249E3EAE7986F043 /* SEGHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGHTTPClient.m; path = Segment/Classes/SEGHTTPClient.m; sourceTree = "<group>"; };
+		646CE0DAF1BA4D8A42C7C2C9DD5BD017 /* Pods-twilioTestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-twilioTestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		686A16F90C9BC1711D4B00CD02D93B70 /* SEGState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGState.h; path = Segment/Internal/SEGState.h; sourceTree = "<group>"; };
+		6AB10D752900D59E389A2B7FFA415624 /* NSData+SEGGZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SEGGZIP.m"; path = "Segment/Internal/NSData+SEGGZIP.m"; sourceTree = "<group>"; };
+		6D1D17597F223A4648E9D13E82E6A52D /* SEGAnalyticsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsUtils.h; path = Segment/Classes/SEGAnalyticsUtils.h; sourceTree = "<group>"; };
+		7233DF1D403E6127AB99F782E55D4CE2 /* Pods-twilioTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-twilioTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74373C546322B46315DF59C4FB83A854 /* SEGAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalytics.h; path = Segment/Classes/SEGAnalytics.h; sourceTree = "<group>"; };
+		7C8DB8F6EE6948EF389D08F91DC50249 /* SEGAnalyticsUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsUtils.m; path = Segment/Classes/SEGAnalyticsUtils.m; sourceTree = "<group>"; };
+		85C3131CBC4E2968EE138543A16D2955 /* SEGStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGStorage.h; path = Segment/Classes/SEGStorage.h; sourceTree = "<group>"; };
+		8694F41412812BAFB476B3EE8E96F9CD /* Pods-twilioTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-twilioTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		8A83E52B72D81AD6CDF4865ACC9016BF /* SEGMiddleware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGMiddleware.m; path = Segment/Classes/SEGMiddleware.m; sourceTree = "<group>"; };
+		8E19E6844214E3F592D1ED8E469A8CAA /* SEGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGMacros.h; path = Segment/Internal/SEGMacros.h; sourceTree = "<group>"; };
+		910F7569FC71FED0FCDBAFC708155489 /* SEGIdentifyPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIdentifyPayload.h; path = Segment/Classes/SEGIdentifyPayload.h; sourceTree = "<group>"; };
+		91F68369938FF17483E040BD8E45E5C0 /* SEGPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGPayload.h; path = Segment/Classes/SEGPayload.h; sourceTree = "<group>"; };
+		96248B1D347222B3D65820D00A879FBD /* SEGAnalyticsConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsConfiguration.m; path = Segment/Classes/SEGAnalyticsConfiguration.m; sourceTree = "<group>"; };
+		96C6C80D1B9570FBA1263D4C2372066A /* SEGGroupPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGGroupPayload.m; path = Segment/Classes/SEGGroupPayload.m; sourceTree = "<group>"; };
+		97CB588F6BB296B46A46A59C49D9827B /* SEGAES256Crypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAES256Crypto.m; path = Segment/Internal/SEGAES256Crypto.m; sourceTree = "<group>"; };
+		985C8E764D27E34C44BAD94605B7AF4C /* SEGWebhookIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGWebhookIntegration.h; path = Segment/Classes/SEGWebhookIntegration.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF5F0122E9D922EB57E17D793B8DA2A /* SEGScreenPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGScreenPayload.m; path = Segment/Classes/SEGScreenPayload.m; sourceTree = "<group>"; };
+		A22BEF7111AB62E711F68F81ED70E860 /* SEGIntegrationsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGIntegrationsManager.m; path = Segment/Internal/SEGIntegrationsManager.m; sourceTree = "<group>"; };
+		AD5E0672DCA4DA595A08D84E70490230 /* SEGAliasPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAliasPayload.m; path = Segment/Classes/SEGAliasPayload.m; sourceTree = "<group>"; };
+		AEFCDDBEB3ACE99B1D8791CC23B72FCE /* SEGHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGHTTPClient.h; path = Segment/Classes/SEGHTTPClient.h; sourceTree = "<group>"; };
+		AF6FC2F1B748A18E3F51342AE2BE59DE /* Pods-twilioTestApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-twilioTestApp"; path = Pods_twilioTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D3686B26098C2952B208E110DB25A0 /* SEGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGReachability.m; path = Segment/Classes/SEGReachability.m; sourceTree = "<group>"; };
+		B9D03D1E5A3330A9B4B7D2176250C077 /* SEGMiddleware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGMiddleware.h; path = Segment/Classes/SEGMiddleware.h; sourceTree = "<group>"; };
+		C0B70A74B115131D4FA1D01322754576 /* Pods-twilioTestApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-twilioTestApp-umbrella.h"; sourceTree = "<group>"; };
+		C5F326285893C62C7F814AD5B5F616C5 /* SEGStoreKitTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGStoreKitTracker.h; path = Segment/Internal/SEGStoreKitTracker.h; sourceTree = "<group>"; };
+		C94B67207B15C9ED01884F6F4705C01B /* Analytics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Analytics-Info.plist"; sourceTree = "<group>"; };
+		CC43DA96026906EE73A33DCE8EE85346 /* SEGSegmentIntegrationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentIntegrationFactory.m; path = Segment/Classes/SEGSegmentIntegrationFactory.m; sourceTree = "<group>"; };
+		D37C0414AB6A99961FDF5F64B7B05EF9 /* SEGState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGState.m; path = Segment/Internal/SEGState.m; sourceTree = "<group>"; };
+		D733277A3095007D758AF03AFC1CEAC6 /* SEGAnalyticsConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsConfiguration.h; path = Segment/Classes/SEGAnalyticsConfiguration.h; sourceTree = "<group>"; };
+		D7A85A3DA6F0F92D7E6037553C5C288C /* UIViewController+SEGScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SEGScreen.h"; path = "Segment/Internal/UIViewController+SEGScreen.h"; sourceTree = "<group>"; };
+		D9DDE2E0E63F58A37C14F2C3C8AF2BD5 /* SEGUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGUtils.m; path = Segment/Internal/SEGUtils.m; sourceTree = "<group>"; };
+		DA62E2D0447E83C2E70D8D3D86147633 /* SEGAES256Crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAES256Crypto.h; path = Segment/Internal/SEGAES256Crypto.h; sourceTree = "<group>"; };
+		DA84338B6908F40F17F14F6033E13EB2 /* Analytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Analytics.modulemap; sourceTree = "<group>"; };
+		DBE4DE0CEF69FAC8A0BFAF44B7448E9D /* Pods-twilioTestApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-twilioTestApp-Info.plist"; sourceTree = "<group>"; };
+		DFBC521852340C6330099674CF56491A /* SEGScreenPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGScreenPayload.h; path = Segment/Classes/SEGScreenPayload.h; sourceTree = "<group>"; };
+		DFEEA2FF3E387FAD6FC6BD96AB8247CD /* SEGCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGCrypto.h; path = Segment/Classes/SEGCrypto.h; sourceTree = "<group>"; };
+		E0F5503DBD5C930830A798DE14D50EB0 /* Analytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Analytics.debug.xcconfig; sourceTree = "<group>"; };
+		E1A3F4B952E5CDDADC2F209F8CC59A60 /* SEGContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGContext.h; path = Segment/Classes/SEGContext.h; sourceTree = "<group>"; };
+		E59B663346F44259F9A44C38C7F316E3 /* Pods-twilioTestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-twilioTestApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5A12DC3BFF5F7764F2A044AFD6EA284 /* Pods-twilioTestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-twilioTestApp-dummy.m"; sourceTree = "<group>"; };
+		E9AF57F738ED19A8F913D535283C1D68 /* Analytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Analytics.release.xcconfig; sourceTree = "<group>"; };
+		F0B0937360AB8B560BABA4CDF84D882A /* Pods-twilioTestApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-twilioTestApp.modulemap"; sourceTree = "<group>"; };
+		FB0CCC38A2B55D782242307DC7EC1D1B /* SEGStoreKitTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGStoreKitTracker.m; path = Segment/Internal/SEGStoreKitTracker.m; sourceTree = "<group>"; };
+		FB10EE280606AF07492B36F89F3C4790 /* SEGIntegrationsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegrationsManager.h; path = Segment/Internal/SEGIntegrationsManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B61BF7B4D2BE79CC5DC89E32C3A156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1AA47CBB19BEB430E8251BBF11BB3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCD615DF62E24420AC314FEAC864DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CECEE22D8E1E49F65B13C57E17ED50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281A68EE114B704840C06F650D9C9558 /* Pods-twilioTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				F0B0937360AB8B560BABA4CDF84D882A /* Pods-twilioTestApp.modulemap */,
+				646CE0DAF1BA4D8A42C7C2C9DD5BD017 /* Pods-twilioTestApp-acknowledgements.markdown */,
+				E59B663346F44259F9A44C38C7F316E3 /* Pods-twilioTestApp-acknowledgements.plist */,
+				E5A12DC3BFF5F7764F2A044AFD6EA284 /* Pods-twilioTestApp-dummy.m */,
+				5397EC223D1AA5A839C2FC3B55013ACF /* Pods-twilioTestApp-frameworks.sh */,
+				DBE4DE0CEF69FAC8A0BFAF44B7448E9D /* Pods-twilioTestApp-Info.plist */,
+				C0B70A74B115131D4FA1D01322754576 /* Pods-twilioTestApp-umbrella.h */,
+				7233DF1D403E6127AB99F782E55D4CE2 /* Pods-twilioTestApp.debug.xcconfig */,
+				8694F41412812BAFB476B3EE8E96F9CD /* Pods-twilioTestApp.release.xcconfig */,
+			);
+			name = "Pods-twilioTestApp";
+			path = "Target Support Files/Pods-twilioTestApp";
+			sourceTree = "<group>";
+		};
+		4E450D3D52CE8F6564A78A7C1ACB01EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4B6165F426953A26419DF02AF0D93 /* Analytics */,
+				AF6FC2F1B748A18E3F51342AE2BE59DE /* Pods-twilioTestApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A1D4BE1E7452B09C91899343393829A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				281A68EE114B704840C06F650D9C9558 /* Pods-twilioTestApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B9DB0C813FF6040BDA04459B8717BC94 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA84338B6908F40F17F14F6033E13EB2 /* Analytics.modulemap */,
+				2F541835BF4FB448A4B2E59348CCB898 /* Analytics-dummy.m */,
+				C94B67207B15C9ED01884F6F4705C01B /* Analytics-Info.plist */,
+				16471AA93C8025EEEE966B0793BD2F8A /* Analytics-prefix.pch */,
+				2EBC8AD70E95E6242D53B6B58221C472 /* Analytics-umbrella.h */,
+				E0F5503DBD5C930830A798DE14D50EB0 /* Analytics.debug.xcconfig */,
+				E9AF57F738ED19A8F913D535283C1D68 /* Analytics.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Analytics";
+			sourceTree = "<group>";
+		};
+		BB7B198DFEBA6875068FBE711EC58800 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				4BF3F5D452B97B00B7DD53195CECF0C8 /* NSData+SEGGZIP.h */,
+				6AB10D752900D59E389A2B7FFA415624 /* NSData+SEGGZIP.m */,
+				5CB38B05D4CC213730B7A77F3F0D805A /* NSViewController+SEGScreen.h */,
+				2587FF6EF26041F69D1C57A99ACE75A1 /* NSViewController+SEGScreen.m */,
+				DA62E2D0447E83C2E70D8D3D86147633 /* SEGAES256Crypto.h */,
+				97CB588F6BB296B46A46A59C49D9827B /* SEGAES256Crypto.m */,
+				48CD63B7744076EE0125A4875D9B4223 /* SEGAliasPayload.h */,
+				AD5E0672DCA4DA595A08D84E70490230 /* SEGAliasPayload.m */,
+				74373C546322B46315DF59C4FB83A854 /* SEGAnalytics.h */,
+				2C8ED6B1476A81884F0F7DD441769D6F /* SEGAnalytics.m */,
+				D733277A3095007D758AF03AFC1CEAC6 /* SEGAnalyticsConfiguration.h */,
+				96248B1D347222B3D65820D00A879FBD /* SEGAnalyticsConfiguration.m */,
+				6D1D17597F223A4648E9D13E82E6A52D /* SEGAnalyticsUtils.h */,
+				7C8DB8F6EE6948EF389D08F91DC50249 /* SEGAnalyticsUtils.m */,
+				E1A3F4B952E5CDDADC2F209F8CC59A60 /* SEGContext.h */,
+				4163C6FC78880FA2BB581AB356A8CBF7 /* SEGContext.m */,
+				DFEEA2FF3E387FAD6FC6BD96AB8247CD /* SEGCrypto.h */,
+				483C34CB1EB30D979B631026A0C42EA3 /* SEGFileStorage.h */,
+				5463DD3B6399661D3C36A6804A3B057C /* SEGFileStorage.m */,
+				5EE4D4A6A19628073B15CFD004F3D61E /* SEGGroupPayload.h */,
+				96C6C80D1B9570FBA1263D4C2372066A /* SEGGroupPayload.m */,
+				AEFCDDBEB3ACE99B1D8791CC23B72FCE /* SEGHTTPClient.h */,
+				5F076809D88127D0249E3EAE7986F043 /* SEGHTTPClient.m */,
+				910F7569FC71FED0FCDBAFC708155489 /* SEGIdentifyPayload.h */,
+				4335D5CCB990DAE880B76A634D842433 /* SEGIdentifyPayload.m */,
+				4FC3D5E966973939AB5DE88180501FFF /* SEGIntegration.h */,
+				3C82692B2EEDE68C0D5277D9F2DAF459 /* SEGIntegrationFactory.h */,
+				FB10EE280606AF07492B36F89F3C4790 /* SEGIntegrationsManager.h */,
+				A22BEF7111AB62E711F68F81ED70E860 /* SEGIntegrationsManager.m */,
+				8E19E6844214E3F592D1ED8E469A8CAA /* SEGMacros.h */,
+				4D79EBE0499FD0996176BF9AE79A5F74 /* Segment.h */,
+				B9D03D1E5A3330A9B4B7D2176250C077 /* SEGMiddleware.h */,
+				8A83E52B72D81AD6CDF4865ACC9016BF /* SEGMiddleware.m */,
+				91F68369938FF17483E040BD8E45E5C0 /* SEGPayload.h */,
+				492BD1D4ADA8FCD2C04D212155A8A8A6 /* SEGPayload.m */,
+				40E59F05B45E9242761E87B65B1E6FFF /* SEGReachability.h */,
+				B2D3686B26098C2952B208E110DB25A0 /* SEGReachability.m */,
+				DFBC521852340C6330099674CF56491A /* SEGScreenPayload.h */,
+				9FF5F0122E9D922EB57E17D793B8DA2A /* SEGScreenPayload.m */,
+				2491C7638847C0E5487C2136F75C13A8 /* SEGScreenReporting.h */,
+				0B90346827ED86C9C787BBBECF6CE169 /* SEGSegmentIntegration.h */,
+				2F6BD40F5030AD382CB2E17D050D5648 /* SEGSegmentIntegration.m */,
+				25D8D02CA1FA647BD8245902D3AC6560 /* SEGSegmentIntegrationFactory.h */,
+				CC43DA96026906EE73A33DCE8EE85346 /* SEGSegmentIntegrationFactory.m */,
+				588AF0D1326439412E8B87CC275594B2 /* SEGSerializableValue.h */,
+				686A16F90C9BC1711D4B00CD02D93B70 /* SEGState.h */,
+				D37C0414AB6A99961FDF5F64B7B05EF9 /* SEGState.m */,
+				85C3131CBC4E2968EE138543A16D2955 /* SEGStorage.h */,
+				C5F326285893C62C7F814AD5B5F616C5 /* SEGStoreKitTracker.h */,
+				FB0CCC38A2B55D782242307DC7EC1D1B /* SEGStoreKitTracker.m */,
+				2CC7B4188196EC22EEB0A8A907DB0D8D /* SEGTrackPayload.h */,
+				414524DEE2805156D7512F49A36BD691 /* SEGTrackPayload.m */,
+				178F75B161C684C13ED13B8C899EA181 /* SEGUserDefaultsStorage.h */,
+				1C0C59FB0FC9AE74DF5E0A751AACE453 /* SEGUserDefaultsStorage.m */,
+				1534305F406184236FB5AEAC68C02D69 /* SEGUtils.h */,
+				D9DDE2E0E63F58A37C14F2C3C8AF2BD5 /* SEGUtils.m */,
+				985C8E764D27E34C44BAD94605B7AF4C /* SEGWebhookIntegration.h */,
+				52DBA8BEB6246172E28A4987E74A0825 /* SEGWebhookIntegration.m */,
+				D7A85A3DA6F0F92D7E6037553C5C288C /* UIViewController+SEGScreen.h */,
+				2A7E06263E6BD8724D275014BCE06CBB /* UIViewController+SEGScreen.m */,
+				B9DB0C813FF6040BDA04459B8717BC94 /* Support Files */,
+			);
+			name = Analytics;
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		BD87D36DD43D2A90FEE58CFC5B848665 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB7B198DFEBA6875068FBE711EC58800 /* Analytics */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BD87D36DD43D2A90FEE58CFC5B848665 /* Pods */,
+				4E450D3D52CE8F6564A78A7C1ACB01EB /* Products */,
+				7A1D4BE1E7452B09C91899343393829A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E0F76C7876FB0C22C19041466B4DD7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDB5D09691B7C04D7B2FFCE2687802F /* Pods-twilioTestApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB1E65B4A6AFCA25CE06F67A29F3C3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696482E99269E8CDB0500799BBCE6449 /* Analytics-umbrella.h in Headers */,
+				91FC06B3714F103E9192A6F68B15C6D3 /* NSData+SEGGZIP.h in Headers */,
+				EC8A5632EB1726B2A002A4DCFB358577 /* NSViewController+SEGScreen.h in Headers */,
+				3AB503D076E809F546D53CA1B0B2B9EB /* SEGAES256Crypto.h in Headers */,
+				71B2EE32B16BB71EB3B48EFDB2D2C3F7 /* SEGAliasPayload.h in Headers */,
+				DA418C3CD9199C93A7213AED57B6CFEA /* SEGAnalytics.h in Headers */,
+				52AC7272006789E5B32F5AFAE4ABD6A0 /* SEGAnalyticsConfiguration.h in Headers */,
+				AD948BE8E64B07B2A2F94D660C4C82DC /* SEGAnalyticsUtils.h in Headers */,
+				36204C6E3833C361DC25A78BE407CFFA /* SEGContext.h in Headers */,
+				933E8D19F4112CDB3FF768CC633F818B /* SEGCrypto.h in Headers */,
+				6C15EB240AF9CD8016D266AA7C9DAE6C /* SEGFileStorage.h in Headers */,
+				FEA67B1EE1DFCC8C2D02902FD242CB4E /* SEGGroupPayload.h in Headers */,
+				486BD878A6185651850D19FE0A855E54 /* SEGHTTPClient.h in Headers */,
+				EFA3349CA5229101281160A984AD2A30 /* SEGIdentifyPayload.h in Headers */,
+				188BC6A856F53497BBDBD32B7CB98EC1 /* SEGIntegration.h in Headers */,
+				B30E2A2E2B816303880718FC3CF2A3FA /* SEGIntegrationFactory.h in Headers */,
+				7D2B6FEB7994AD7BE07AF9ACF5A9505E /* SEGIntegrationsManager.h in Headers */,
+				0D66936A8F524646E62755CAF117F98F /* SEGMacros.h in Headers */,
+				A0450A08E026AD13C29F3B42E1B0C7E6 /* Segment.h in Headers */,
+				2A1C5D8D777D5AFF9BCEC8EC3D411CA7 /* SEGMiddleware.h in Headers */,
+				DF130B86CF3EC0670CDC46E6EBF9CF7B /* SEGPayload.h in Headers */,
+				557DEBE4CCD20864381A8DB339AF20A8 /* SEGReachability.h in Headers */,
+				A6FC39F9419F15E470434B9A4493A261 /* SEGScreenPayload.h in Headers */,
+				EC8EB7F1686CA218646849333EC81E38 /* SEGScreenReporting.h in Headers */,
+				320FE5C08207B115B6E98D4CE09381DD /* SEGSegmentIntegration.h in Headers */,
+				436C18C3ABB3D6A52A91AC93DD5DDBF0 /* SEGSegmentIntegrationFactory.h in Headers */,
+				977382C0F7359E7BE08753FF6D96EAB9 /* SEGSerializableValue.h in Headers */,
+				233849E7247678C8D08019E67C118B57 /* SEGState.h in Headers */,
+				7459C4D5936B411B548372351C1C4029 /* SEGStorage.h in Headers */,
+				CC83DEB29EE23239AB0C219054E1F5DE /* SEGStoreKitTracker.h in Headers */,
+				559868601F3A25B77CD8E5FCFFA830B9 /* SEGTrackPayload.h in Headers */,
+				A98268D73144D9B64DB82E9C5CD362AD /* SEGUserDefaultsStorage.h in Headers */,
+				E8F4C396C82107C84CD2BC08A6F29D0B /* SEGUtils.h in Headers */,
+				E210A24CB9C0CBA8F67D3B445619AAAF /* SEGWebhookIntegration.h in Headers */,
+				FD47E3FBF25FAEB299E1182C5EC419F8 /* UIViewController+SEGScreen.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8F50A15C556FFEAD343B69C7EA54092F /* Analytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C82CF342ECAA25D327784BCC2142AA0 /* Build configuration list for PBXNativeTarget "Analytics" */;
+			buildPhases = (
+				8EB1E65B4A6AFCA25CE06F67A29F3C3D /* Headers */,
+				26CFFA719DD65B6D9EB6CE86738586CB /* Sources */,
+				BBCD615DF62E24420AC314FEAC864DEF /* Frameworks */,
+				E44F3D1CA8DB6B8E4EEFFBF009542FE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Analytics;
+			productName = Segment;
+			productReference = 2CE4B6165F426953A26419DF02AF0D93 /* Analytics */;
+			productType = "com.apple.product-type.framework";
+		};
+		942D51FBFE1FD0B3D292BA6CEFB3D135 /* Pods-twilioTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8A6806CE3BDB02358C9CBF133E47B48 /* Build configuration list for PBXNativeTarget "Pods-twilioTestApp" */;
+			buildPhases = (
+				0E0F76C7876FB0C22C19041466B4DD7E /* Headers */,
+				611CDA26544F73560893FA96691349F8 /* Sources */,
+				57B61BF7B4D2BE79CC5DC89E32C3A156 /* Frameworks */,
+				DFA0CFDE6DAB3060C72E72D1A9989326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8F2047B42C785BDDC4CF9B7B8BBB5BF /* PBXTargetDependency */,
+			);
+			name = "Pods-twilioTestApp";
+			productName = Pods_twilioTestApp;
+			productReference = AF6FC2F1B748A18E3F51342AE2BE59DE /* Pods-twilioTestApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4E450D3D52CE8F6564A78A7C1ACB01EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F50A15C556FFEAD343B69C7EA54092F /* Analytics */,
+				942D51FBFE1FD0B3D292BA6CEFB3D135 /* Pods-twilioTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFA0CFDE6DAB3060C72E72D1A9989326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44F3D1CA8DB6B8E4EEFFBF009542FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26CFFA719DD65B6D9EB6CE86738586CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12FFE6A85B5F33032CF7A0E5E0B38EC /* Analytics-dummy.m in Sources */,
+				0A43C46F296C13246F66DED267B66149 /* NSData+SEGGZIP.m in Sources */,
+				B45E14C48D7529A682DC0E250B8B2DAD /* NSViewController+SEGScreen.m in Sources */,
+				8C0EEA8F56098154A880D893217F9840 /* SEGAES256Crypto.m in Sources */,
+				31B3F82B0183E280D3D11664CD5ED456 /* SEGAliasPayload.m in Sources */,
+				D46BEBE7D76C095DA757891E51CBE4DC /* SEGAnalytics.m in Sources */,
+				9CE5AE2FB94BAD317BA572E0E77D6A05 /* SEGAnalyticsConfiguration.m in Sources */,
+				8C041E2C23D6ACADF2EE2C5BEC52CC55 /* SEGAnalyticsUtils.m in Sources */,
+				17A2B46B5710553AC3B357E082C8D1A7 /* SEGContext.m in Sources */,
+				C43E523441207FCA51B655C1EBE61AA1 /* SEGFileStorage.m in Sources */,
+				BD40B43498BB7B136A0CB0D66714CD80 /* SEGGroupPayload.m in Sources */,
+				89D257FA9D2CD19B84D6D32EC19B7628 /* SEGHTTPClient.m in Sources */,
+				3EFCD773E3C83EBD7D056CAE92E0B173 /* SEGIdentifyPayload.m in Sources */,
+				FB1F2CF0EC25B86AE8955D60BB7BA9B6 /* SEGIntegrationsManager.m in Sources */,
+				39F7A5121334D7A9996A148E4ECDE8AC /* SEGMiddleware.m in Sources */,
+				7D5C076A4746677A37F564C78018E0DA /* SEGPayload.m in Sources */,
+				7C5CC019B581871B3A8F985B81EF24D5 /* SEGReachability.m in Sources */,
+				C7C07A0ACC33F28B0941BEEA01049CB9 /* SEGScreenPayload.m in Sources */,
+				12A5DB6B55FD8432DC4FCD2A5CD1ACD2 /* SEGSegmentIntegration.m in Sources */,
+				AC2BB0E786ED3585E7457985E8C9C92F /* SEGSegmentIntegrationFactory.m in Sources */,
+				3CCFE6AA09821263964112C456248DC5 /* SEGState.m in Sources */,
+				F73144C3DF66F22DA7CA846601BD3AAE /* SEGStoreKitTracker.m in Sources */,
+				2B1EF9F938A82FDD6FE44792DBE27FE0 /* SEGTrackPayload.m in Sources */,
+				860EC0A5D4E5DE26C3FC5BA1B64BAFA8 /* SEGUserDefaultsStorage.m in Sources */,
+				B41B7CA65465FD40292222CBB4387589 /* SEGUtils.m in Sources */,
+				EA29DF308095E0DA82A77CB9C00852AE /* SEGWebhookIntegration.m in Sources */,
+				AD1EF9ED5EF7C111B42B8D0DACB3DADD /* UIViewController+SEGScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611CDA26544F73560893FA96691349F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E98A2C13AE0C1DCCEA740599EF84FD /* Pods-twilioTestApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8F2047B42C785BDDC4CF9B7B8BBB5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Analytics;
+			target = 8F50A15C556FFEAD343B69C7EA54092F /* Analytics */;
+			targetProxy = D31902D728CA6D61543D5A8214093971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8AFA6E0C5FB345C5886AD12ACB714356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9AF57F738ED19A8F913D535283C1D68 /* Analytics.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Analytics/Analytics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Analytics/Analytics.modulemap";
+				PRODUCT_MODULE_NAME = Segment;
+				PRODUCT_NAME = Segment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F478FBB6757C7E37AADB1446AA10A9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8694F41412812BAFB476B3EE8E96F9CD /* Pods-twilioTestApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-twilioTestApp/Pods-twilioTestApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-twilioTestApp/Pods-twilioTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6BE01EC5F12BF72B08490FF606EEF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F5503DBD5C930830A798DE14D50EB0 /* Analytics.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Analytics/Analytics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Analytics/Analytics.modulemap";
+				PRODUCT_MODULE_NAME = Segment;
+				PRODUCT_NAME = Segment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8FA19F32F3789413E6F1A0D735852A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7233DF1D403E6127AB99F782E55D4CE2 /* Pods-twilioTestApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-twilioTestApp/Pods-twilioTestApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-twilioTestApp/Pods-twilioTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C82CF342ECAA25D327784BCC2142AA0 /* Build configuration list for PBXNativeTarget "Analytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BE01EC5F12BF72B08490FF606EEF80 /* Debug */,
+				8AFA6E0C5FB345C5886AD12ACB714356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8A6806CE3BDB02358C9CBF133E47B48 /* Build configuration list for PBXNativeTarget "Pods-twilioTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FA19F32F3789413E6F1A0D735852A4 /* Debug */,
+				F478FBB6757C7E37AADB1446AA10A9DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

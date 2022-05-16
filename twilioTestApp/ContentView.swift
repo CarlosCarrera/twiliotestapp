@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    let presenter = ContentPresenter()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(spacing: 10) {
+            Text("Twilio test App")
+            
+            Button("First Button") {
+                presenter.firstButtonAction()
+            }
+            
+            Button("Second Button") {
+                presenter.secondButtonAction()
+            }
+        }
+        .padding()
+        .onAppear {
+            presenter.onAppear()
+        }
     }
 }
 

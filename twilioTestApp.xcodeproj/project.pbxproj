@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C522E43282FB3F600A50AE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C522E42282FB3F600A50AE8 /* AppDelegate.swift */; };
+		2C522E45282FB53500A50AE8 /* ContentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C522E44282FB53500A50AE8 /* ContentPresenter.swift */; };
 		2C540E2F282FAAEF0014AD2B /* twilioTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C540E2E282FAAEF0014AD2B /* twilioTestAppApp.swift */; };
 		2C540E31282FAAEF0014AD2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C540E30282FAAEF0014AD2B /* ContentView.swift */; };
 		2C540E33282FAAF00014AD2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C540E32282FAAF00014AD2B /* Assets.xcassets */; };
 		2C540E36282FAAF00014AD2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C540E35282FAAF00014AD2B /* Preview Assets.xcassets */; };
+		AB0A343C7BE06599F65974F0 /* Pods_twilioTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10BEA14D19AF28B0BFE6923 /* Pods_twilioTestApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15C7E2B18599130EDC931B17 /* Pods-twilioTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twilioTestApp.debug.xcconfig"; path = "Target Support Files/Pods-twilioTestApp/Pods-twilioTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2C522E42282FB3F600A50AE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C522E44282FB53500A50AE8 /* ContentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPresenter.swift; sourceTree = "<group>"; };
 		2C540E2B282FAAEF0014AD2B /* twilioTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twilioTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C540E2E282FAAEF0014AD2B /* twilioTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twilioTestAppApp.swift; sourceTree = "<group>"; };
 		2C540E30282FAAEF0014AD2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C540E32282FAAF00014AD2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C540E35282FAAF00014AD2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6AC50EA147132218D4D78FA /* Pods-twilioTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twilioTestApp.release.xcconfig"; path = "Target Support Files/Pods-twilioTestApp/Pods-twilioTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		D10BEA14D19AF28B0BFE6923 /* Pods_twilioTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twilioTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0A343C7BE06599F65974F0 /* Pods_twilioTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +46,8 @@
 			children = (
 				2C540E2D282FAAEF0014AD2B /* twilioTestApp */,
 				2C540E2C282FAAEF0014AD2B /* Products */,
+				D18286AE18A8694CB02D1D37 /* Pods */,
+				AE510F80DDAE3A38DE0FF8E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +62,10 @@
 		2C540E2D282FAAEF0014AD2B /* twilioTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				2C522E42282FB3F600A50AE8 /* AppDelegate.swift */,
 				2C540E2E282FAAEF0014AD2B /* twilioTestAppApp.swift */,
 				2C540E30282FAAEF0014AD2B /* ContentView.swift */,
+				2C522E44282FB53500A50AE8 /* ContentPresenter.swift */,
 				2C540E32282FAAF00014AD2B /* Assets.xcassets */,
 				2C540E34282FAAF00014AD2B /* Preview Content */,
 			);
@@ -67,6 +80,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AE510F80DDAE3A38DE0FF8E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D10BEA14D19AF28B0BFE6923 /* Pods_twilioTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D18286AE18A8694CB02D1D37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15C7E2B18599130EDC931B17 /* Pods-twilioTestApp.debug.xcconfig */,
+				B6AC50EA147132218D4D78FA /* Pods-twilioTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C540E39282FAAF00014AD2B /* Build configuration list for PBXNativeTarget "twilioTestApp" */;
 			buildPhases = (
+				492EB7801703ECACE518BA6A /* [CP] Check Pods Manifest.lock */,
 				2C540E27282FAAEF0014AD2B /* Sources */,
 				2C540E28282FAAEF0014AD2B /* Frameworks */,
 				2C540E29282FAAEF0014AD2B /* Resources */,
+				90B4F63D36D3227B3670A738 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,11 +164,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		492EB7801703ECACE518BA6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-twilioTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90B4F63D36D3227B3670A738 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-twilioTestApp/Pods-twilioTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-twilioTestApp/Pods-twilioTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-twilioTestApp/Pods-twilioTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C540E27282FAAEF0014AD2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C522E45282FB53500A50AE8 /* ContentPresenter.swift in Sources */,
+				2C522E43282FB3F600A50AE8 /* AppDelegate.swift in Sources */,
 				2C540E31282FAAEF0014AD2B /* ContentView.swift in Sources */,
 				2C540E2F282FAAEF0014AD2B /* twilioTestAppApp.swift in Sources */,
 			);
@@ -263,6 +339,7 @@
 		};
 		2C540E3A282FAAF00014AD2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C7E2B18599130EDC931B17 /* Pods-twilioTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,6 +368,7 @@
 		};
 		2C540E3B282FAAF00014AD2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AC50EA147132218D4D78FA /* Pods-twilioTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
